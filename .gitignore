@@ -5,3 +5,6 @@
 # Logs
 ## Node yarn
 yarn-error.log
+
+# Transpiled objects
+/lib/

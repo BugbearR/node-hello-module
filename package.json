@@ -1,23 +1,26 @@
 {
   "name": "@bugbearr/hellomodule",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Hello module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [
-    "sample"
+    "example"
   ],
   "publishConfig": {
     "access": "public"
   },
+  "repository": "github:BugbearR/node-hello-module",
   "author": "BugbearR",
   "license": "CC0-1.0",
   "devDependencies": {
     "@babel/cli": "^7.10.3",
     "@babel/core": "^7.10.3",
     "@babel/node": "^7.10.3",
-    "@babel/preset-env": "^7.10.3"
+    "@babel/preset-env": "^7.10.3",
+    "babel-jest": "^26.1.0",
+    "jest": "^26.1.0"
   }
 }
