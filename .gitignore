@@ -1,0 +1,7 @@
+# External sources
+## Node
+/node_modules/
+
+# Logs
+## Node yarn
+yarn-error.log
